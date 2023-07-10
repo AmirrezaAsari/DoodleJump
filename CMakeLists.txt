@@ -17,6 +17,14 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        platform.h
+        platform.cpp
+        platform1.h
+        platform1.cpp
+        platform2.h
+        platform2.cpp
+        platform3.h
+        platform3.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
