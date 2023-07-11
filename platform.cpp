@@ -11,3 +11,6 @@ void platform::move(double dy){
 void platform::jump(double & y){
     y = -8;
 }
+
+
+//test git
