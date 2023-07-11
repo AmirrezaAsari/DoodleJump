@@ -25,6 +25,8 @@ set(PROJECT_SOURCES
         platform2.cpp
         platform3.h
         platform3.cpp
+        platform-generator.h
+        platform-generator.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
