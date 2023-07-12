@@ -16,3 +16,4 @@ void trampo::pos(){ //set on platform
     setPos(tar->x()+tar->pixmap().width()/2-20,tar->y()-15);
 }
 
+//
