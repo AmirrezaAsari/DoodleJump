@@ -27,10 +27,6 @@ set(PROJECT_SOURCES
         platform3.cpp
         platform-generator.h
         platform-generator.cpp
-<<<<<<< HEAD
-        trampo.h
-        trampo.cpp
-=======
         monster.h
         monster.cpp
         monster1.h
@@ -39,8 +35,9 @@ set(PROJECT_SOURCES
         monster2.cpp
         monster3.h
         monster3.cpp
->>>>>>> 8b3a26d193c115e5b2af26d5facd0937aa883364
-)
+        trampo.h
+        trampo.cpp
+    )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Doodle-Jump
