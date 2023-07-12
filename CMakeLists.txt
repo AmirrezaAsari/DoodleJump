@@ -37,6 +37,9 @@ set(PROJECT_SOURCES
         monster3.cpp
         trampo.h
         trampo.cpp
+        bullet.h
+        basics.h
+        bullet.cpp
     )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
