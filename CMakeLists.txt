@@ -28,6 +28,7 @@ set(PROJECT_SOURCES
         platform-generator.h
         platform-generator.cpp
         monster.h
+        monster.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
