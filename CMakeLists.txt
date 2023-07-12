@@ -30,6 +30,7 @@ set(PROJECT_SOURCES
         monster.h
         monster.cpp
         monster1.h
+        monster1.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
