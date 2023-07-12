@@ -33,6 +33,7 @@ set(PROJECT_SOURCES
         monster1.cpp
         monster2.h
         monster2.cpp
+        monster3.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
