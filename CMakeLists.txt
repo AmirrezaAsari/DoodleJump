@@ -27,6 +27,8 @@ set(PROJECT_SOURCES
         platform3.cpp
         platform-generator.h
         platform-generator.cpp
+        trampo.h
+        trampo.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
