@@ -40,6 +40,10 @@ set(PROJECT_SOURCES
         bullet.h
         basics.h
         bullet.cpp
+        shield.h
+        jetpack.h
+        jetpack.cpp
+        shield.cpp
     )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
