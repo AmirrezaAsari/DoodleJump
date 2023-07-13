@@ -42,6 +42,10 @@ set(PROJECT_SOURCES
         basics.cpp
         bullet.cpp
         resources.qrc
+        jetpack.cpp
+        jetpack.h
+        shield.cpp
+        shield.h
     )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
