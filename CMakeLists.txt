@@ -39,7 +39,9 @@ set(PROJECT_SOURCES
         trampo.cpp
         bullet.h
         basics.h
+        basics.cpp
         bullet.cpp
+        resources.qrc
     )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

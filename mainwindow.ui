@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>0</y>
+      <y>-40</y>
       <width>600</width>
       <height>800</height>
      </rect>
@@ -60,42 +60,13 @@
       <property name="geometry">
        <rect>
         <x>370</x>
-        <y>450</y>
+        <y>470</y>
         <width>191</width>
         <height>71</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">border-image: url(:/res/play.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="pic2">
-      <property name="geometry">
-       <rect>
-        <x>350</x>
-        <y>290</y>
-        <width>131</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="covertail">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>700</y>
-        <width>600</width>
-        <height>100</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border-image: url(:/res/cover.png);</string>
       </property>
       <property name="text">
        <string/>
@@ -112,22 +83,6 @@
       </property>
       <property name="styleSheet">
        <string notr="true">image: url(:/res/UFO.png);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_2">
-      <property name="geometry">
-       <rect>
-        <x>90</x>
-        <y>370</y>
-        <width>151</width>
-        <height>71</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">image: url(:/res/platform3.png);</string>
       </property>
       <property name="text">
        <string/>
@@ -158,17 +113,17 @@
        </font>
       </property>
       <property name="text">
-       <string>Choose Theme</string>
+       <string>Game Mode</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QPushButton" name="JungleBT">
+     <widget class="QPushButton" name="Normal">
       <property name="geometry">
        <rect>
         <x>200</x>
-        <y>250</y>
+        <y>300</y>
         <width>200</width>
         <height>70</height>
        </rect>
@@ -180,14 +135,14 @@
        </font>
       </property>
       <property name="text">
-       <string>Jungle</string>
+       <string>Normal</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="SpaceBt">
+     <widget class="QPushButton" name="Multiplayer">
       <property name="geometry">
        <rect>
         <x>200</x>
-        <y>370</y>
+        <y>440</y>
         <width>200</width>
         <height>70</height>
        </rect>
@@ -199,45 +154,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Space</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="UWBt">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>490</y>
-        <width>200</width>
-        <height>70</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Comic Sans MS</family>
-        <pointsize>18</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Underwater</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="HopBT">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>600</y>
-        <width>200</width>
-        <height>70</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Comic Sans MS</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Easter</string>
+       <string>Multiplayer</string>
       </property>
      </widget>
     </widget>
@@ -405,7 +322,7 @@
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-image: url(:/res/menu.png);</string>
+       <string notr="true">border-image: url(:/res/menu.png)</string>
       </property>
       <property name="text">
        <string/>
