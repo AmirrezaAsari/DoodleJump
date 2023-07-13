@@ -49,6 +49,8 @@ private slots:
     void on_Multiplayer_clicked();
 
 
+    void on_page_4_windowIconTextChanged(const QString &iconText);
+
 private:
     Ui::MainWindow *ui;
     shield *sd;

@@ -316,10 +316,6 @@ void MainWindow::jump()
 }
 void MainWindow::Gameover(){
     unsigned long c;
-    //scene->removeItem(pausebg);
-    //delete pausebg;
-    //scene->removeItem(line);
-    //delete line;
     scene->removeItem(trp);
     delete trp;
     if(jet_est){scene->removeItem(jet);delete jet;}
@@ -387,7 +383,8 @@ void MainWindow::on_Normal_clicked()
 
 void MainWindow::on_Multiplayer_clicked()
 {
-    game_mode = 1;
-    set();
-    ui->stackedWidget->setCurrentIndex(2);
+    //game_mode = 1;
+    //set();
+    ui->stackedWidget->setCurrentIndex(4);
 }
+
