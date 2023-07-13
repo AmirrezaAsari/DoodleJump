@@ -41,6 +41,10 @@ set(PROJECT_SOURCES
         basics.h
         basics.cpp
         bullet.cpp
+        shield.h
+        jetpack.h
+        jetpack.cpp
+        shield.cpp
         resources.qrc
     )
 
